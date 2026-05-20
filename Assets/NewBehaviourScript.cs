@@ -15,4 +15,9 @@ public class NewBehaviourScript : MonoBehaviour
     {
         
     }
+
+    public void SaveA()
+    {
+        PlayerPrefs.SetString("chave", "valor");
+    }
 }
