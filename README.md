@@ -1,7 +1,6 @@
 <div align="center">
 
-<!-- Replace the src below with the path to your game logo after adding it to the repository -->
-<!-- <img src=".github/images/logo.png" alt="BioTrilha Logo" width="300"/> -->
+<img src="Assets/BioTrilha/Art/2D/Logo/Logo.png" alt="BioTrilha Logo" width="300"/>
 
 # BioTrilha
 
@@ -46,17 +45,33 @@ The game features a rich set of physical and digital components:
 
 ---
 
+## Screenshots
+
+<div align="center">
+<img src="Assets/Screenshots/screenshot-20260702-144117.png" alt="3D pawn models preview" width="400"/>
+<img src="Assets/Screenshots/screenshot-20260702-150610.png" alt="3D pawn models preview" width="400"/>
+<br/>
+<sub>3D pawn models (Agrônomo, Químico, Cientista) previewed in the Unity Editor</sub>
+</div>
+
+---
+
 ## Current Status
 
 - [x] Academic article written with full game design documentation
-- [x] Visual models designed: cards, bills, board (2D), pawns (3D)
+- [x] Game logo finalized
+- [x] Board artwork (2D) added
+- [x] 3D dice model added
+- [x] 3D pawn models added: Engenheiro Agrônomo, Engenheiro Químico, Cientista
+- [ ] Product and event card artwork
+- [ ] Banknote artwork
 - [x] Unity project initialized with Android mobile configuration
 - [x] Project folder structure organized
 - [x] Scenes created: Main Menu, Standard Game, Tutorial
 - [ ] Game logic implementation (C# scripts)
 - [ ] Card system and deck mechanics
 - [ ] In-game currency system
-- [ ] Pawn movement on the board (3D)
+- [ ] Dice roll and pawn movement on the board (3D)
 - [ ] Tutorial scene with animated characters (2D)
 - [ ] UI/UX for mobile screens
 - [ ] Audio: soundtrack and sound effects
@@ -81,20 +96,31 @@ The game features a rich set of physical and digital components:
 
 ```
 Assets/
-└── BioTrilha/
-    ├── Animations/       # Character and pawn animations
-    ├── Art/
-    │   ├── 2D/           # Board, cards, bills, UI sprites
-    │   └── 3D/           # Pawn 3D models and textures
-    ├── Audio/            # Music and sound effects
-    ├── Materials/        # 2D and 3D materials
-    ├── Prefabs/          # Reusable game objects
-    ├── ScriptableObjects/# Game data (cards, rules)
-    └── Scripts/          # All C# game logic
-Scenes/
-    ├── Main_menu         # Main menu scene
-    ├── Standardgame      # Main board game scene
-    └── Tutorial          # Tutorial scene
+├── BioTrilha/
+│   ├── Animations/            # Character and pawn animations
+│   ├── Art/
+│   │   ├── 2D/                # Board, cards, banknotes, logo, UI sprites
+│   │   │   ├── Banknotes/
+│   │   │   ├── BoardGame/     # Game board artwork
+│   │   │   ├── Cards/
+│   │   │   │   └── Products/  # Front/back product card art
+│   │   │   ├── Logo/          # Game logo
+│   │   │   ├── Tutorial/
+│   │   │   └── UI/
+│   │   └── 3D/                # Dice and pawn models/textures
+│   │       ├── Dice/
+│   │       └── Pawns/
+│   │           ├── Models/    # Engenheiro_Agronomo, Engenheiro_Químico, Cientista
+│   │           └── Textures/
+│   ├── Audio/                 # Music and sound effects
+│   ├── Prefabs/                # Reusable game objects
+│   ├── SciptableObjects/       # Game data (cards, settings)
+│   └── Scripts/                # C# game logic (Banknotes, Board_Game, Cards, GameManager, Pawns, Tutorial, UI)
+├── Scenes/
+│   ├── Main_menu               # Main menu scene
+│   ├── Standardgame            # Main board game scene
+│   └── Tutorial                # Tutorial scene
+└── Screenshots/                 # Development preview captures
 ```
 
 ---
@@ -139,8 +165,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 <div align="center">
 
-<!-- Substitua o src abaixo pelo caminho da logo após adicioná-la ao repositório -->
-<!-- <img src=".github/images/logo.png" alt="BioTrilha Logo" width="300"/> -->
+<img src="Assets/BioTrilha/Art/2D/Logo/Logo.png" alt="BioTrilha Logo" width="300"/>
 
 # BioTrilha
 
@@ -185,17 +210,33 @@ O jogo conta com um conjunto rico de componentes físicos e digitais:
 
 ---
 
+## Capturas de Tela
+
+<div align="center">
+<img src="Assets/Screenshots/screenshot-20260702-144117.png" alt="Prévia dos modelos 3D dos peões" width="400"/>
+<img src="Assets/Screenshots/screenshot-20260702-150610.png" alt="Prévia dos modelos 3D dos peões" width="400"/>
+<br/>
+<sub>Modelos 3D dos peões (Agrônomo, Químico, Cientista) visualizados no Unity Editor</sub>
+</div>
+
+---
+
 ## Status Atual
 
 - [x] Artigo acadêmico escrito com documentação completa do design do jogo
-- [x] Modelos visuais criados: cartas, cédulas, tabuleiro (2D), peões (3D)
+- [x] Logo do jogo finalizada
+- [x] Arte do tabuleiro (2D) adicionada
+- [x] Modelo 3D do dado adicionado
+- [x] Modelos 3D dos peões adicionados: Engenheiro Agrônomo, Engenheiro Químico, Cientista
+- [ ] Arte das cartas de produto e evento
+- [ ] Arte das cédulas
 - [x] Projeto Unity inicializado com configuração mobile Android
 - [x] Estrutura de pastas do projeto organizada
 - [x] Cenas criadas: Menu Principal, Jogo Padrão, Tutorial
 - [ ] Implementação da lógica do jogo (scripts C#)
 - [ ] Sistema de cartas e mecânica de baralho
 - [ ] Sistema de moeda do jogo
-- [ ] Movimentação dos peões no tabuleiro (3D)
+- [ ] Rolagem do dado e movimentação dos peões no tabuleiro (3D)
 - [ ] Cena de tutorial com personagens animados (2D)
 - [ ] UI/UX para telas mobile
 - [ ] Áudio: trilha sonora e efeitos sonoros
@@ -220,20 +261,31 @@ O jogo conta com um conjunto rico de componentes físicos e digitais:
 
 ```
 Assets/
-└── BioTrilha/
-    ├── Animations/       # Animações de personagens e peões
-    ├── Art/
-    │   ├── 2D/           # Sprites do tabuleiro, cartas, cédulas e UI
-    │   └── 3D/           # Modelos 3D e texturas dos peões
-    ├── Audio/            # Músicas e efeitos sonoros
-    ├── Materials/        # Materials 2D e 3D
-    ├── Prefabs/          # Objetos reutilizáveis do jogo
-    ├── ScriptableObjects/# Dados do jogo (cartas, regras)
-    └── Scripts/          # Toda a lógica C# do jogo
-Scenes/
-    ├── Main_menu         # Cena do menu principal
-    ├── Standardgame      # Cena principal do tabuleiro
-    └── Tutorial          # Cena do tutorial
+├── BioTrilha/
+│   ├── Animations/            # Animações de personagens e peões
+│   ├── Art/
+│   │   ├── 2D/                # Tabuleiro, cartas, cédulas, logo, sprites de UI
+│   │   │   ├── Banknotes/
+│   │   │   ├── BoardGame/     # Arte do tabuleiro
+│   │   │   ├── Cards/
+│   │   │   │   └── Products/  # Arte das cartas (frente/verso)
+│   │   │   ├── Logo/          # Logo do jogo
+│   │   │   ├── Tutorial/
+│   │   │   └── UI/
+│   │   └── 3D/                # Modelos e texturas do dado e dos peões
+│   │       ├── Dice/
+│   │       └── Pawns/
+│   │           ├── Models/    # Engenheiro_Agronomo, Engenheiro_Químico, Cientista
+│   │           └── Textures/
+│   ├── Audio/                 # Músicas e efeitos sonoros
+│   ├── Prefabs/                # Objetos reutilizáveis do jogo
+│   ├── SciptableObjects/       # Dados do jogo (cartas, configurações)
+│   └── Scripts/                # Lógica C# do jogo (Banknotes, Board_Game, Cards, GameManager, Pawns, Tutorial, UI)
+├── Scenes/
+│   ├── Main_menu               # Cena do menu principal
+│   ├── Standardgame            # Cena principal do tabuleiro
+│   └── Tutorial                # Cena do tutorial
+└── Screenshots/                 # Capturas de desenvolvimento
 ```
 
 ---
