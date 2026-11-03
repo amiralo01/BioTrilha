@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c89eb3245c13c46ae614f7eee0cb76, type: 3}
+  m_Name: Acao_17_BioprospeccaoDaBiodiversidadeAmazonica
+  m_EditorClassIdentifier: 
+  id: 17
+  displayName: "Bioprospec\xE7\xE3o da Biodiversidade Amaz\xF4nica"
+  frontSprite: {fileID: 21300000, guid: 237760144444d714eb4e90d2312a2176, type: 3}
+  backSprite: {fileID: 21300000, guid: 89f2bf5163d77a94fa133061d10201ec, type: 3}
+  buyPrice: 100000
+  sellPrice: 50000
+  benefitText: 

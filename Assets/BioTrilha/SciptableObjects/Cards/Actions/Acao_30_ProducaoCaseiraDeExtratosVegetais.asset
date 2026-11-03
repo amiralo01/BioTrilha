@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c89eb3245c13c46ae614f7eee0cb76, type: 3}
+  m_Name: Acao_30_ProducaoCaseiraDeExtratosVegetais
+  m_EditorClassIdentifier: 
+  id: 30
+  displayName: "Produ\xE7\xE3o Caseira de Extratos Vegetais"
+  frontSprite: {fileID: 21300000, guid: db3e8ae306556c849b4d915b7f7870a0, type: 3}
+  backSprite: {fileID: 21300000, guid: 9b8b96188cd11a54bb92983b822fedcf, type: 3}
+  buyPrice: 50000
+  sellPrice: 25000
+  benefitText: 

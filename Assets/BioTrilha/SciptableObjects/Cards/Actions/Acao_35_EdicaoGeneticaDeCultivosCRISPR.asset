@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c89eb3245c13c46ae614f7eee0cb76, type: 3}
+  m_Name: Acao_35_EdicaoGeneticaDeCultivosCRISPR
+  m_EditorClassIdentifier: 
+  id: 35
+  displayName: "Edi\xE7\xE3o Gen\xE9tica de Cultivos (CRISPR)"
+  frontSprite: {fileID: 21300000, guid: 6b9f5122dc2024248a5eb67a79d4f8ad, type: 3}
+  backSprite: {fileID: 21300000, guid: f23a4676da926ad4b9145e61ce8442f4, type: 3}
+  buyPrice: 100000
+  sellPrice: 50000
+  benefitText: 

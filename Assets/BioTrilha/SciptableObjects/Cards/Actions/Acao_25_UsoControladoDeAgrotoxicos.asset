@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c89eb3245c13c46ae614f7eee0cb76, type: 3}
+  m_Name: Acao_25_UsoControladoDeAgrotoxicos
+  m_EditorClassIdentifier: 
+  id: 25
+  displayName: "Uso Controlado de Agrot\xF3xicos"
+  frontSprite: {fileID: 21300000, guid: c9a7b4d8bd4b20746b1b2b145953f874, type: 3}
+  backSprite: {fileID: 21300000, guid: 56aebb24a2cd7d14a8c119ffada75da3, type: 3}
+  buyPrice: 50000
+  sellPrice: 25000
+  benefitText: 

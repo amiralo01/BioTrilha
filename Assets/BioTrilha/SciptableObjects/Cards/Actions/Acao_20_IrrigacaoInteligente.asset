@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c89eb3245c13c46ae614f7eee0cb76, type: 3}
+  m_Name: Acao_20_IrrigacaoInteligente
+  m_EditorClassIdentifier: 
+  id: 20
+  displayName: "Irriga\xE7\xE3o Inteligente"
+  frontSprite: {fileID: 21300000, guid: 6fe449b6112384e4d9335f9692712f1a, type: 3}
+  backSprite: {fileID: 21300000, guid: ffb457aa2e8e8244996a9c7105332971, type: 3}
+  buyPrice: 200000
+  sellPrice: 100000
+  benefitText: 
