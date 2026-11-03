@@ -52,6 +52,14 @@ The game features a rich set of physical and digital components:
 <img src="Assets/Screenshots/screenshot-20260702-150610.png" alt="3D pawn models preview" width="400"/>
 <br/>
 <sub>3D pawn models (Agrônomo, Químico, Cientista) previewed in the Unity Editor</sub>
+<br/><br/>
+<img src="Assets/Screenshots/estado-atual-tabuleiro.png" alt="Current board prototype in the Unity Game view" width="800"/>
+<br/>
+<sub>Current board prototype (Unity Game view, landscape): path with colored houses, START, FINISH, Penitentiary, the dice and the three pawns standing on the board</sub>
+<br/><br/>
+<img src="Assets/Screenshots/cartas-de-acao.png" alt="Action cards, front and back" width="800"/>
+<br/>
+<sub>Action card artwork (front on top, back below), exported from Canva with a transparent background. 6 of the 36 cards shown</sub>
 </div>
 
 ---
@@ -63,12 +71,15 @@ The game features a rich set of physical and digital components:
 - [x] Board artwork (2D) added
 - [x] 3D dice model added
 - [x] 3D pawn models added: Engenheiro Agrônomo, Engenheiro Químico, Cientista
+- [x] Action card artwork (36 cards, front and back, transparent PNG)
 - [ ] Product and event card artwork
 - [ ] Banknote artwork
 - [x] Unity project initialized with Android mobile configuration
 - [x] Project folder structure organized
-- [x] Scenes created: Main Menu, Standard Game, Tutorial
+- [x] Scene folders organized: Main Menu, Standard Game, Tutorial (scenes still to be built)
+- [x] Board prototype scene (`SampleScene`): board, dice and pawns
 - [ ] Game logic implementation (C# scripts)
+- [x] Action card data (ScriptableObjects) and card UI prefab
 - [ ] Card system and deck mechanics
 - [ ] In-game currency system
 - [ ] Dice roll and pawn movement on the board (3D)
@@ -103,6 +114,7 @@ Assets/
 │   │   │   ├── Banknotes/
 │   │   │   ├── BoardGame/     # Game board artwork
 │   │   │   ├── Cards/
+│   │   │   │   ├── Actions/   # 36 action cards (Front/ and Back/)
 │   │   │   │   └── Products/  # Front/back product card art
 │   │   │   ├── Logo/          # Game logo
 │   │   │   ├── Tutorial/
@@ -113,13 +125,14 @@ Assets/
 │   │           ├── Models/    # Engenheiro_Agronomo, Engenheiro_Químico, Cientista
 │   │           └── Textures/
 │   ├── Audio/                 # Music and sound effects
-│   ├── Prefabs/                # Reusable game objects
-│   ├── SciptableObjects/       # Game data (cards, settings)
-│   └── Scripts/                # C# game logic (Banknotes, Board_Game, Cards, GameManager, Pawns, Tutorial, UI)
+│   ├── Prefabs/                # Reusable game objects (Cards/ActionCard)
+│   ├── SciptableObjects/       # Game data (Cards/Actions: 36 action card assets)
+│   └── Scripts/                # C# game logic (Banknotes, Board_Game, Cards, Editor, GameManager, Pawns, Tutorial, UI)
 ├── Scenes/
-│   ├── Main_menu               # Main menu scene
-│   ├── Standardgame            # Main board game scene
-│   └── Tutorial                # Tutorial scene
+│   ├── SampleScene             # Current board prototype (board, dice, pawns)
+│   ├── Main_menu               # Folder for the main menu scene (planned)
+│   ├── Standardgame            # Folder for the main board game scene (planned)
+│   └── Tutorial                # Folder for the tutorial scene (planned)
 └── Screenshots/                 # Development preview captures
 ```
 
@@ -217,6 +230,14 @@ O jogo conta com um conjunto rico de componentes físicos e digitais:
 <img src="Assets/Screenshots/screenshot-20260702-150610.png" alt="Prévia dos modelos 3D dos peões" width="400"/>
 <br/>
 <sub>Modelos 3D dos peões (Agrônomo, Químico, Cientista) visualizados no Unity Editor</sub>
+<br/><br/>
+<img src="Assets/Screenshots/estado-atual-tabuleiro.png" alt="Protótipo atual do tabuleiro na Game View do Unity" width="800"/>
+<br/>
+<sub>Protótipo atual do tabuleiro (Game View do Unity, modo paisagem): trilha com casas coloridas, INÍCIO, FIM, Penitenciária, o dado e os três peões sobre o tabuleiro</sub>
+<br/><br/>
+<img src="Assets/Screenshots/cartas-de-acao.png" alt="Cartas de Ação, frente e verso" width="800"/>
+<br/>
+<sub>Arte das cartas de Ação (frente em cima, verso embaixo), exportadas do Canva com fundo transparente. 6 das 36 cartas</sub>
 </div>
 
 ---
@@ -228,12 +249,15 @@ O jogo conta com um conjunto rico de componentes físicos e digitais:
 - [x] Arte do tabuleiro (2D) adicionada
 - [x] Modelo 3D do dado adicionado
 - [x] Modelos 3D dos peões adicionados: Engenheiro Agrônomo, Engenheiro Químico, Cientista
+- [x] Arte das cartas de Ação (36 cartas, frente e verso, PNG transparente)
 - [ ] Arte das cartas de produto e evento
 - [ ] Arte das cédulas
 - [x] Projeto Unity inicializado com configuração mobile Android
 - [x] Estrutura de pastas do projeto organizada
-- [x] Cenas criadas: Menu Principal, Jogo Padrão, Tutorial
+- [x] Pastas das cenas organizadas: Menu Principal, Jogo Padrão, Tutorial (cenas ainda a construir)
+- [x] Cena de protótipo do tabuleiro (`SampleScene`): tabuleiro, dado e peões
 - [ ] Implementação da lógica do jogo (scripts C#)
+- [x] Dados das cartas de Ação (ScriptableObjects) e prefab de UI da carta
 - [ ] Sistema de cartas e mecânica de baralho
 - [ ] Sistema de moeda do jogo
 - [ ] Rolagem do dado e movimentação dos peões no tabuleiro (3D)
@@ -268,6 +292,7 @@ Assets/
 │   │   │   ├── Banknotes/
 │   │   │   ├── BoardGame/     # Arte do tabuleiro
 │   │   │   ├── Cards/
+│   │   │   │   ├── Actions/   # 36 cartas de Ação (Front/ e Back/)
 │   │   │   │   └── Products/  # Arte das cartas (frente/verso)
 │   │   │   ├── Logo/          # Logo do jogo
 │   │   │   ├── Tutorial/
@@ -278,13 +303,14 @@ Assets/
 │   │           ├── Models/    # Engenheiro_Agronomo, Engenheiro_Químico, Cientista
 │   │           └── Textures/
 │   ├── Audio/                 # Músicas e efeitos sonoros
-│   ├── Prefabs/                # Objetos reutilizáveis do jogo
-│   ├── SciptableObjects/       # Dados do jogo (cartas, configurações)
-│   └── Scripts/                # Lógica C# do jogo (Banknotes, Board_Game, Cards, GameManager, Pawns, Tutorial, UI)
+│   ├── Prefabs/                # Objetos reutilizáveis do jogo (Cards/ActionCard)
+│   ├── SciptableObjects/       # Dados do jogo (Cards/Actions: 36 assets de cartas de Ação)
+│   └── Scripts/                # Lógica C# do jogo (Banknotes, Board_Game, Cards, Editor, GameManager, Pawns, Tutorial, UI)
 ├── Scenes/
-│   ├── Main_menu               # Cena do menu principal
-│   ├── Standardgame            # Cena principal do tabuleiro
-│   └── Tutorial                # Cena do tutorial
+│   ├── SampleScene             # Protótipo atual (tabuleiro, dado, peões)
+│   ├── Main_menu               # Pasta da cena do menu principal (planejada)
+│   ├── Standardgame            # Pasta da cena principal do tabuleiro (planejada)
+│   └── Tutorial                # Pasta da cena do tutorial (planejada)
 └── Screenshots/                 # Capturas de desenvolvimento
 ```
 
