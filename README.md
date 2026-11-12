@@ -72,14 +72,15 @@ The game features a rich set of physical and digital components:
 - [x] 3D dice model added
 - [x] 3D pawn models added: Engenheiro Agrônomo, Engenheiro Químico, Cientista
 - [x] Action card artwork (36 cards, front and back, transparent PNG)
-- [ ] Product and event card artwork
+- [x] Luck or Setback card artwork (26 cards and a shared back, transparent PNG)
+- [ ] Product and Question card artwork
 - [ ] Banknote artwork
 - [x] Unity project initialized with Android mobile configuration
 - [x] Project folder structure organized
 - [x] Scene folders organized: Main Menu, Standard Game, Tutorial (scenes still to be built)
 - [x] Board prototype scene (`SampleScene`): board, dice and pawns
 - [ ] Game logic implementation (C# scripts)
-- [x] Action card data (ScriptableObjects) and card UI prefab
+- [x] Action and Luck/Setback card data (ScriptableObjects) and card UI prefabs
 - [ ] Card system and deck mechanics
 - [ ] In-game currency system
 - [ ] Dice roll and pawn movement on the board (3D)
@@ -115,6 +116,7 @@ Assets/
 │   │   │   ├── BoardGame/     # Game board artwork
 │   │   │   ├── Cards/
 │   │   │   │   ├── Actions/   # 36 action cards (Front/ and Back/)
+│   │   │   │   ├── LuckSetback/ # 26 Luck/Setback cards (Front/) + shared back (Back/)
 │   │   │   │   └── Products/  # Front/back product card art
 │   │   │   ├── Logo/          # Game logo
 │   │   │   ├── Tutorial/
@@ -250,14 +252,15 @@ O jogo conta com um conjunto rico de componentes físicos e digitais:
 - [x] Modelo 3D do dado adicionado
 - [x] Modelos 3D dos peões adicionados: Engenheiro Agrônomo, Engenheiro Químico, Cientista
 - [x] Arte das cartas de Ação (36 cartas, frente e verso, PNG transparente)
-- [ ] Arte das cartas de produto e evento
+- [x] Arte das cartas de Sorte ou Revés (26 cartas e um verso comum, PNG transparente)
+- [ ] Arte das cartas de Produto e de Questões
 - [ ] Arte das cédulas
 - [x] Projeto Unity inicializado com configuração mobile Android
 - [x] Estrutura de pastas do projeto organizada
 - [x] Pastas das cenas organizadas: Menu Principal, Jogo Padrão, Tutorial (cenas ainda a construir)
 - [x] Cena de protótipo do tabuleiro (`SampleScene`): tabuleiro, dado e peões
 - [ ] Implementação da lógica do jogo (scripts C#)
-- [x] Dados das cartas de Ação (ScriptableObjects) e prefab de UI da carta
+- [x] Dados das cartas de Ação e de Sorte ou Revés (ScriptableObjects) e prefabs de UI das cartas
 - [ ] Sistema de cartas e mecânica de baralho
 - [ ] Sistema de moeda do jogo
 - [ ] Rolagem do dado e movimentação dos peões no tabuleiro (3D)
@@ -293,6 +296,7 @@ Assets/
 │   │   │   ├── BoardGame/     # Arte do tabuleiro
 │   │   │   ├── Cards/
 │   │   │   │   ├── Actions/   # 36 cartas de Ação (Front/ e Back/)
+│   │   │   │   ├── LuckSetback/ # 26 cartas de Sorte ou Revés (Front/) + verso comum (Back/)
 │   │   │   │   └── Products/  # Arte das cartas (frente/verso)
 │   │   │   ├── Logo/          # Logo do jogo
 │   │   │   ├── Tutorial/
