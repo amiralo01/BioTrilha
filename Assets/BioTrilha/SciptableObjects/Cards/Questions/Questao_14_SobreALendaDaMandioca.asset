@@ -19,8 +19,8 @@ MonoBehaviour:
   questionText: "Segundo uma lenda ind\xEDgena tupi, a mandioca nasceu onde foi enterrada
     a menina Mani, e seu nome viria da jun\xE7\xE3o de \"Mani\" com \"oca\"?"
   answerIsYes: 1
-  correctOutcomeText: "Voc\xEA valoriza o conhecimento tradicional e cultural. Ganhe
+  correctOutcomeText: "Voc\xEA valoriza o conhecimento tradicional e cultural. Receba
     15.000."
   wrongOutcomeText: "Sua falta de conex\xE3o com as ra\xEDzes culturais impacta sua
-    reputa\xE7\xE3o no mercado. Perca 10.000."
+    reputa\xE7\xE3o no mercado. Pague 10.000."
   keepCardOnCorrect: 0

@@ -20,7 +20,7 @@ MonoBehaviour:
     na fabrica\xE7\xE3o de cosm\xE9ticos, sab\xF5es e detergentes?"
   answerIsYes: 1
   correctOutcomeText: "Voc\xEA investiu na produ\xE7\xE3o sustent\xE1vel de derivados
-    do \xF3leo de coco. Avance duas casas."
+    do \xF3leo de coco. Avance 2 casas."
   wrongOutcomeText: "Voc\xEA ignorou os benef\xEDcios industriais do \xF3leo de coco
     e perdeu oportunidades de mercado. Devolva ao baralho uma carta de produto."
   keepCardOnCorrect: 0

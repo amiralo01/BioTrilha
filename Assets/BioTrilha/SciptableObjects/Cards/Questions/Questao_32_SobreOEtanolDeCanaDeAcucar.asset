@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Questao_32_SobreOEtanolDeCanaDeAcucar
   m_EditorClassIdentifier: 
   id: 32
-  displayName: "Sobre o Etanol de Cana de A\xE7\xFAcar"
+  displayName: "Sobre o Etanol de Cana-de-A\xE7\xFAcar"
   frontSprite: {fileID: 21300000, guid: 79343f7c66e17f04693984f6d7b47394, type: 3}
   backSprite: {fileID: 21300000, guid: 49682f917eb5495458ec52695d380d88, type: 3}
   questionText: "O Brasil criou, em 1975, um programa nacional para substituir combust\xEDveis

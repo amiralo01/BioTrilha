@@ -22,6 +22,6 @@ MonoBehaviour:
   answerIsYes: 0
   correctOutcomeText: Receba um incentivo de 40.000 por implementar medidas preventivas
     contra desastres ambientais.
-  wrongOutcomeText: "Perca 50.000 devido a san\xE7\xF5es ambientais e danos \xE0
+  wrongOutcomeText: "Pague 50.000 devido a san\xE7\xF5es ambientais e danos \xE0
     reputa\xE7\xE3o da sua empresa."
   keepCardOnCorrect: 0

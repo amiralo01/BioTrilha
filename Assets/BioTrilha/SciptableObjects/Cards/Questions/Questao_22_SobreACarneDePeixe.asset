@@ -18,8 +18,8 @@ MonoBehaviour:
   backSprite: {fileID: 21300000, guid: 49682f917eb5495458ec52695d380d88, type: 3}
   questionText: "O tambaqui, peixe nativo da Amaz\xF4nia, \xE9 a esp\xE9cie nativa
     mais criada na piscicultura brasileira?"
-  answerIsYes: 0
+  answerIsYes: 1
   correctOutcomeText: "Voc\xEA conhece o potencial da piscicultura amaz\xF4nica.
     Receba 20.000."
-  wrongOutcomeText: "Voc\xEA ignorou uma esp\xE9cie nativa de alto valor. Pague 15.000"
+  wrongOutcomeText: "Voc\xEA ignorou uma esp\xE9cie nativa de alto valor. Pague 15.000."
   keepCardOnCorrect: 0
