@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b66875482242a3c49b442a1f8db1467c, type: 3}
+  m_Name: Questao_26_SobreOControleBiologico
+  m_EditorClassIdentifier: 
+  id: 26
+  displayName: "Sobre o Controle Biol\xF3gico"
+  frontSprite: {fileID: 21300000, guid: c674ad89007ecf0428a4071ca16e5852, type: 3}
+  backSprite: {fileID: 21300000, guid: 49682f917eb5495458ec52695d380d88, type: 3}
+  questionText: "Alguns fungos podem ser aplicados na lavoura para proteger as plantas
+    contra doen\xE7as, reduzindo o uso de agrot\xF3xicos qu\xEDmicos?"
+  answerIsYes: 1
+  correctOutcomeText: "Voc\xEA apostou no controle biol\xF3gico e protegeu sua lavoura.
+    Receba 20.000."
+  wrongOutcomeText: "Voc\xEA exagerou nos agrot\xF3xicos e prejudicou o solo. Pague
+    20.000."
+  keepCardOnCorrect: 0

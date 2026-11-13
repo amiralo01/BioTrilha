@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b66875482242a3c49b442a1f8db1467c, type: 3}
+  m_Name: Questao_31_SobreOBiodigestor
+  m_EditorClassIdentifier: 
+  id: 31
+  displayName: Sobre o Biodigestor
+  frontSprite: {fileID: 21300000, guid: f30d5c7a6dc55804da9c31b61ccf1d04, type: 3}
+  backSprite: {fileID: 21300000, guid: 49682f917eb5495458ec52695d380d88, type: 3}
+  questionText: "O biodigestor produz apenas g\xE1s, sem gerar nenhum outro produto
+    aproveit\xE1vel?"
+  answerIsYes: 0
+  correctOutcomeText: "Voc\xEA sabe que ele tamb\xE9m gera biofertilizante. Pegue
+    uma carta de produto do monte com o n\xEDvel que tirar no dado."
+  wrongOutcomeText: "Voc\xEA descartou o biofertilizante e desperdi\xE7ou recursos.
+    Pague 20.000."
+  keepCardOnCorrect: 0

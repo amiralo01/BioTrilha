@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b66875482242a3c49b442a1f8db1467c, type: 3}
+  m_Name: Questao_17_SobreAFixacaoBiologicaDeNitrogenio
+  m_EditorClassIdentifier: 
+  id: 17
+  displayName: "Sobre a Fixa\xE7\xE3o Biol\xF3gica de Nitrog\xEAnio"
+  frontSprite: {fileID: 21300000, guid: 4c3936a616dd1a045b3f739a1364a127, type: 3}
+  backSprite: {fileID: 21300000, guid: 49682f917eb5495458ec52695d380d88, type: 3}
+  questionText: "Bact\xE9rias que vivem nas ra\xEDzes da soja conseguem fornecer
+    o nitrog\xEAnio de que a planta precisa, dispensando o adubo nitrogenado?"
+  answerIsYes: 1
+  correctOutcomeText: "Voc\xEA economizou com fertilizantes. Receba 30.000."
+  wrongOutcomeText: "Voc\xEA gastou com adubo desnecess\xE1rio. Pague 20.000."
+  keepCardOnCorrect: 0

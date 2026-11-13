@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b66875482242a3c49b442a1f8db1467c, type: 3}
+  m_Name: Questao_01_SobreOAcai
+  m_EditorClassIdentifier: 
+  id: 1
+  displayName: "Sobre o A\xE7a\xED"
+  frontSprite: {fileID: 21300000, guid: 46586094bcdbbfa46aaa0fae0d3b3e76, type: 3}
+  backSprite: {fileID: 21300000, guid: 49682f917eb5495458ec52695d380d88, type: 3}
+  questionText: "O a\xE7a\xED \xE9 um produto valioso no cen\xE1rio da bioeconomia
+    por originar subprodutos como medicamentos, cosm\xE9ticos, \xF3leos e bebidas?"
+  answerIsYes: 1
+  correctOutcomeText: "O jogador poder\xE1 trocar um produto seu com o jogador anterior."
+  wrongOutcomeText: "D\xEA 20.000 do seu dinheiro para o pr\xF3ximo jogador."
+  keepCardOnCorrect: 0

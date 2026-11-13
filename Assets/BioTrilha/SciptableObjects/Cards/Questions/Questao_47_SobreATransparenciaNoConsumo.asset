@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b66875482242a3c49b442a1f8db1467c, type: 3}
+  m_Name: Questao_47_SobreATransparenciaNoConsumo
+  m_EditorClassIdentifier: 
+  id: 47
+  displayName: "Sobre a Transpar\xEAncia no Consumo"
+  frontSprite: {fileID: 21300000, guid: 2ba3b1b280c59b74686a39f6b3a1dedb, type: 3}
+  backSprite: {fileID: 21300000, guid: 49682f917eb5495458ec52695d380d88, type: 3}
+  questionText: Pesquisas mostram que muitos consumidores aceitam pagar mais por
+    produtos com origem transparente?
+  answerIsYes: 1
+  correctOutcomeText: "Voc\xEA entende o valor da confian\xE7a do consumidor. Receba
+    20.000."
+  wrongOutcomeText: "Voc\xEA escondeu a origem e perdeu clientes. Pague 20.000."
+  keepCardOnCorrect: 0

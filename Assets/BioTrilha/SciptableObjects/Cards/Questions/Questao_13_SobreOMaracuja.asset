@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b66875482242a3c49b442a1f8db1467c, type: 3}
+  m_Name: Questao_13_SobreOMaracuja
+  m_EditorClassIdentifier: 
+  id: 13
+  displayName: "Sobre o Maracuj\xE1"
+  frontSprite: {fileID: 21300000, guid: fd6c944e14499c945a810bd170121a85, type: 3}
+  backSprite: {fileID: 21300000, guid: 49682f917eb5495458ec52695d380d88, type: 3}
+  questionText: "O cultivo do maracuj\xE1 no Brasil \xE9 restrito a grandes produtores,
+    sem impacto na agricultura familiar?"
+  answerIsYes: 0
+  correctOutcomeText: "Voc\xEA reconhece a import\xE2ncia do maracuj\xE1 na agricultura
+    familiar. Ganhe 20.000."
+  wrongOutcomeText: "Sua falta de conhecimento sobre a produ\xE7\xE3o sustent\xE1vel
+    afeta seus investimentos. Perca 15.000."
+  keepCardOnCorrect: 0

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b66875482242a3c49b442a1f8db1467c, type: 3}
+  m_Name: Questao_25_SobreADomesticacaoDaMandioca
+  m_EditorClassIdentifier: 
+  id: 25
+  displayName: "Sobre a Domestica\xE7\xE3o da Mandioca"
+  frontSprite: {fileID: 21300000, guid: eb6bce57daf455b4eb602696fbad7fcf, type: 3}
+  backSprite: {fileID: 21300000, guid: 49682f917eb5495458ec52695d380d88, type: 3}
+  questionText: "A mandioca foi domesticada pelos povos origin\xE1rios na Amaz\xF4nia
+    h\xE1 milhares de anos?"
+  answerIsYes: 1
+  correctOutcomeText: "Voc\xEA reconhece o saber dos povos origin\xE1rios. Receba
+    20.000."
+  wrongOutcomeText: "Voc\xEA ignorou a origem amaz\xF4nica da mandioca. Fique 1 rodada
+    sem jogar."
+  keepCardOnCorrect: 0

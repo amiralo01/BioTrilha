@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b66875482242a3c49b442a1f8db1467c, type: 3}
+  m_Name: Questao_43_SobreOPlantioDireto
+  m_EditorClassIdentifier: 
+  id: 43
+  displayName: Sobre o Plantio Direto
+  frontSprite: {fileID: 21300000, guid: 1e37141309609334c88e715a811f0cd5, type: 3}
+  backSprite: {fileID: 21300000, guid: 49682f917eb5495458ec52695d380d88, type: 3}
+  questionText: "Manter a palha da colheita anterior sobre o solo, como no plantio
+    direto, ajuda a reduzir a eros\xE3o?"
+  answerIsYes: 1
+  correctOutcomeText: Seu solo ficou protegido. Receba 25.000.
+  wrongOutcomeText: "A chuva levou a camada f\xE9rtil do seu solo. Pague 25.000."
+  keepCardOnCorrect: 0
