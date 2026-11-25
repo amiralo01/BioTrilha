@@ -48,18 +48,17 @@ The game features a rich set of physical and digital components:
 ## Screenshots
 
 <div align="center">
-<img src="Assets/Screenshots/screenshot-20260702-144117.png" alt="3D pawn models preview" width="400"/>
-<img src="Assets/Screenshots/screenshot-20260702-150610.png" alt="3D pawn models preview" width="400"/>
-<br/>
-<sub>3D pawn models (Agrônomo, Químico, Cientista) previewed in the Unity Editor</sub>
-<br/><br/>
 <img src="Assets/Screenshots/estado-atual-tabuleiro.png" alt="Current board prototype in the Unity Game view" width="800"/>
 <br/>
-<sub>Current board prototype (Unity Game view, landscape): path with colored houses, START, FINISH, Penitentiary, the dice and the three pawns standing on the board</sub>
+<sub>Current board prototype (Unity Game view, landscape, full-board camera): path with colored houses, START, FINISH, Penitentiary, the dice and the three pawns standing on the board</sub>
 <br/><br/>
-<img src="Assets/Screenshots/cartas-de-acao.png" alt="Action cards, front and back" width="800"/>
+<img src="Assets/Screenshots/peoes-no-tabuleiro.png" alt="The three 3D pawns on the board" width="800"/>
 <br/>
-<sub>Action card artwork (front on top, back below), exported from Canva with a transparent background. 6 of the 36 cards shown</sub>
+<sub>The three 3D pawns on the board: Engenheiro Agrônomo (green), Engenheiro Químico (yellow) and Cientista (blue, with the new hair)</sub>
+<br/><br/>
+<img src="Assets/Screenshots/cartas-do-jogo.png" alt="One card of each type, front and back" width="800"/>
+<br/>
+<sub>One card of each type, front and back: Action, Luck or Setback, Question and Bioeconomic Product</sub>
 </div>
 
 ---
@@ -74,14 +73,14 @@ The game features a rich set of physical and digital components:
 - [x] Action card artwork (36 cards, front and back, transparent PNG)
 - [x] Luck or Setback card artwork (26 cards and a shared back, transparent PNG)
 - [x] Question card artwork (47 cards and a shared back, transparent PNG)
-- [ ] Product card artwork
+- [x] Product card artwork (75 cards, front and back, transparent PNG; each product has a category ID from 1 to 11)
 - [ ] Banknote artwork
 - [x] Unity project initialized with Android mobile configuration
 - [x] Project folder structure organized
 - [x] Scene folders organized: Main Menu, Standard Game, Tutorial (scenes still to be built)
 - [x] Board prototype scene (`SampleScene`): board, dice and pawns
 - [ ] Game logic implementation (C# scripts)
-- [x] Action, Luck/Setback and Question card data (ScriptableObjects) and card UI prefabs
+- [x] Action, Luck/Setback, Question and Product card data (ScriptableObjects) and card UI prefabs
 - [ ] Card system and deck mechanics
 - [ ] In-game currency system
 - [x] Board camera controller (follows the moving pawn, then shows the full board)
@@ -120,7 +119,7 @@ Assets/
 │   │   │   │   ├── Actions/   # 36 action cards (Front/ and Back/)
 │   │   │   │   ├── LuckSetback/ # 26 Luck/Setback cards (Front/) + shared back (Back/)
 │   │   │   │   ├── Questions/ # 47 Question cards (Front/) + shared back (Back/)
-│   │   │   │   └── Products/  # Front/back product card art
+│   │   │   │   └── Products/  # 75 product cards (Front/ and Back/)
 │   │   │   ├── Logo/          # Game logo
 │   │   │   ├── Tutorial/
 │   │   │   └── UI/
@@ -130,8 +129,8 @@ Assets/
 │   │           ├── Models/    # Engenheiro_Agronomo, Engenheiro_Químico, Cientista
 │   │           └── Textures/
 │   ├── Audio/                 # Music and sound effects
-│   ├── Prefabs/                # Reusable game objects (Cards/ActionCard)
-│   ├── SciptableObjects/       # Game data (Cards/Actions: 36 action card assets)
+│   ├── Prefabs/                # Reusable game objects (Cards/ActionCard, LuckSetbackCard, QuestionCard, ProductCard)
+│   ├── SciptableObjects/       # Game data (Cards/Actions 36, LuckSetback 26, Questions 47, Products 75)
 │   └── Scripts/                # C# game logic (Banknotes, Board_Game, Cards, Editor, GameManager, Pawns, Tutorial, UI)
 ├── Scenes/
 │   ├── SampleScene             # Current board prototype (board, dice, pawns)
@@ -231,18 +230,17 @@ O jogo conta com um conjunto rico de componentes físicos e digitais:
 ## Capturas de Tela
 
 <div align="center">
-<img src="Assets/Screenshots/screenshot-20260702-144117.png" alt="Prévia dos modelos 3D dos peões" width="400"/>
-<img src="Assets/Screenshots/screenshot-20260702-150610.png" alt="Prévia dos modelos 3D dos peões" width="400"/>
-<br/>
-<sub>Modelos 3D dos peões (Agrônomo, Químico, Cientista) visualizados no Unity Editor</sub>
-<br/><br/>
 <img src="Assets/Screenshots/estado-atual-tabuleiro.png" alt="Protótipo atual do tabuleiro na Game View do Unity" width="800"/>
 <br/>
-<sub>Protótipo atual do tabuleiro (Game View do Unity, modo paisagem): trilha com casas coloridas, INÍCIO, FIM, Penitenciária, o dado e os três peões sobre o tabuleiro</sub>
+<sub>Protótipo atual do tabuleiro (Game View do Unity, modo paisagem, câmera com o tabuleiro inteiro): trilha com casas coloridas, INÍCIO, FIM, Penitenciária, o dado e os três peões sobre o tabuleiro</sub>
 <br/><br/>
-<img src="Assets/Screenshots/cartas-de-acao.png" alt="Cartas de Ação, frente e verso" width="800"/>
+<img src="Assets/Screenshots/peoes-no-tabuleiro.png" alt="Os três peões 3D sobre o tabuleiro" width="800"/>
 <br/>
-<sub>Arte das cartas de Ação (frente em cima, verso embaixo), exportadas do Canva com fundo transparente. 6 das 36 cartas</sub>
+<sub>Os três peões 3D sobre o tabuleiro: Engenheiro Agrônomo (verde), Engenheiro Químico (amarelo) e Cientista (azul, com o novo cabelo)</sub>
+<br/><br/>
+<img src="Assets/Screenshots/cartas-do-jogo.png" alt="Uma carta de cada tipo, frente e verso" width="800"/>
+<br/>
+<sub>Uma carta de cada tipo, frente e verso: Ação, Sorte ou Revés, Questões e Produto Bioeconômico</sub>
 </div>
 
 ---
@@ -257,14 +255,14 @@ O jogo conta com um conjunto rico de componentes físicos e digitais:
 - [x] Arte das cartas de Ação (36 cartas, frente e verso, PNG transparente)
 - [x] Arte das cartas de Sorte ou Revés (26 cartas e um verso comum, PNG transparente)
 - [x] Arte das cartas de Questões (47 cartas e um verso comum, PNG transparente)
-- [ ] Arte das cartas de Produto
+- [x] Arte das cartas de Produto (75 cartas, frente e verso, PNG transparente; cada produto tem um ID de categoria de 1 a 11)
 - [ ] Arte das cédulas
 - [x] Projeto Unity inicializado com configuração mobile Android
 - [x] Estrutura de pastas do projeto organizada
 - [x] Pastas das cenas organizadas: Menu Principal, Jogo Padrão, Tutorial (cenas ainda a construir)
 - [x] Cena de protótipo do tabuleiro (`SampleScene`): tabuleiro, dado e peões
 - [ ] Implementação da lógica do jogo (scripts C#)
-- [x] Dados das cartas de Ação, de Sorte ou Revés e de Questões (ScriptableObjects) e prefabs de UI das cartas
+- [x] Dados das cartas de Ação, de Sorte ou Revés, de Questões e de Produto (ScriptableObjects) e prefabs de UI das cartas
 - [ ] Sistema de cartas e mecânica de baralho
 - [ ] Sistema de moeda do jogo
 - [x] Controlador de câmera do tabuleiro (segue o peão em movimento e depois mostra o tabuleiro inteiro)
@@ -303,7 +301,7 @@ Assets/
 │   │   │   │   ├── Actions/   # 36 cartas de Ação (Front/ e Back/)
 │   │   │   │   ├── LuckSetback/ # 26 cartas de Sorte ou Revés (Front/) + verso comum (Back/)
 │   │   │   │   ├── Questions/ # 47 cartas de Questões (Front/) + verso comum (Back/)
-│   │   │   │   └── Products/  # Arte das cartas (frente/verso)
+│   │   │   │   └── Products/  # 75 cartas de Produto (Front/ e Back/)
 │   │   │   ├── Logo/          # Logo do jogo
 │   │   │   ├── Tutorial/
 │   │   │   └── UI/
@@ -313,8 +311,8 @@ Assets/
 │   │           ├── Models/    # Engenheiro_Agronomo, Engenheiro_Químico, Cientista
 │   │           └── Textures/
 │   ├── Audio/                 # Músicas e efeitos sonoros
-│   ├── Prefabs/                # Objetos reutilizáveis do jogo (Cards/ActionCard)
-│   ├── SciptableObjects/       # Dados do jogo (Cards/Actions: 36 assets de cartas de Ação)
+│   ├── Prefabs/                # Objetos reutilizáveis do jogo (Cards/ActionCard, LuckSetbackCard, QuestionCard, ProductCard)
+│   ├── SciptableObjects/       # Dados do jogo (Cards/Actions 36, LuckSetback 26, Questions 47, Products 75)
 │   └── Scripts/                # Lógica C# do jogo (Banknotes, Board_Game, Cards, Editor, GameManager, Pawns, Tutorial, UI)
 ├── Scenes/
 │   ├── SampleScene             # Protótipo atual (tabuleiro, dado, peões)
