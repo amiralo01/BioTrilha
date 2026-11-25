@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_48_HortelaPimenta
+  m_EditorClassIdentifier: 
+  id: 48
+  displayName: "Hortel\xE3-Pimenta"
+  stars: 4
+  category: 6
+  frontSprite: {fileID: 21300000, guid: 57c839b5f09fddc4a93449858727ff6e, type: 3}
+  backSprite: {fileID: 21300000, guid: c655c9605bb9c014f899fac5ec0c027b, type: 3}
+  descriptionText: "A hortel\xE3-pimenta \xE9 uma planta herb\xE1cea cultivada principalmente
+    por suas folhas, ricas em mentol, utilizadas em ch\xE1s, \xF3leos essenciais
+    e cosm\xE9ticos. Ela pode ser cultivada em climas temperados e subtropicais,
+    sendo comum no Sul e Sudeste do Brasil. Na bioeconomia, a hortel\xE3-pimenta
+    contribui com o uso sustent\xE1vel de recursos naturais e seus benef\xEDcios
+    incluem propriedades calmantes, digestivas e analg\xE9sicas."
+  subproductsText: "Repelentes Naturais\nCremes e Lo\xE7\xF5es\n\xD3leo Essencial
+    de Hortel\xE3-Pimenta"

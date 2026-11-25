@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_26_BiodieselDeGirassol
+  m_EditorClassIdentifier: 
+  id: 26
+  displayName: Biodiesel de Girassol
+  stars: 3
+  category: 1
+  frontSprite: {fileID: 21300000, guid: a99f638cf146a3948b265eb9866455cf, type: 3}
+  backSprite: {fileID: 21300000, guid: 08eba3b446b7d6b4fb3f6362ae705c12, type: 3}
+  descriptionText: "O biodiesel de girassol \xE9 um biocombust\xEDvel produzido a
+    partir do \xF3leo extra\xEDdo das sementes de girassol por transesterifica\xE7\xE3o.
+    \xC9 produzido principalmente em estados como Rio Grande do Sul e Paran\xE1,
+    onde o girassol \xE9 cultivado em larga escala. Na bioeconomia, reduz as emiss\xF5es
+    do transporte e agrega valor \xE0 cadeia do girassol, aproveitando a torta como
+    ra\xE7\xE3o animal."
+  subproductsText: "Glicerina Vegetal\nTorta de Girassol\n\xC1cidos Graxos\nBiolubrificantes"

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_44_LodoDeEsgoto
+  m_EditorClassIdentifier: 
+  id: 44
+  displayName: Lodo de Esgoto
+  stars: 2
+  category: 11
+  frontSprite: {fileID: 21300000, guid: 1a90f5fd901f1b0408f26f1cdf734623, type: 3}
+  backSprite: {fileID: 21300000, guid: 8b9f795e12238004484dcdf133a7c30f, type: 3}
+  descriptionText: "O lodo de esgoto \xE9 um res\xEDduo resultante do tratamento
+    de \xE1guas residuais em esta\xE7\xF5es de esgoto, sendo obtido por meio da separa\xE7\xE3o
+    de s\xF3lidos da \xE1gua. No Brasil, \xE9 amplamente utilizado em estados com
+    grande produ\xE7\xE3o agr\xEDcola, como S\xE3o Paulo e Paran\xE1, para fertiliza\xE7\xE3o
+    do solo e produ\xE7\xE3o de biog\xE1s. Na bioeconomia, sua import\xE2ncia est\xE1
+    na reciclagem de nutrientes e na redu\xE7\xE3o da polui\xE7\xE3o, trazendo benef\xEDcios
+    como a melhoria da fertilidade do solo, gera\xE7\xE3o de energia renov\xE1vel
+    e menor impacto ambiental."
+  subproductsText: "Fertilizantes Org\xE2nicos\nBiog\xE1s\nBriquetes de Biomassa"

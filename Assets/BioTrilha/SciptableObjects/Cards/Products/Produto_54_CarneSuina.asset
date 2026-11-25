@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_54_CarneSuina
+  m_EditorClassIdentifier: 
+  id: 54
+  displayName: "Carne Su\xEDna"
+  stars: 2
+  category: 4
+  frontSprite: {fileID: 21300000, guid: 365453b08cd32944297f1492641f249c, type: 3}
+  backSprite: {fileID: 21300000, guid: ba5be9d3e2e427c49972350a599aecac, type: 3}
+  descriptionText: "A carne su\xEDna \xE9 obtida da cria\xE7\xE3o de porcos, praticada
+    tanto em sistemas intensivos quanto em produ\xE7\xF5es familiares, sendo bastante
+    utilizada nas regi\xF5es Centro- Oeste e Sul do Brasil. Na bioeconomia, ela se
+    destaca pela alta produtividade e efici\xEAncia na convers\xE3o alimentar, gerando
+    subprodutos valiosos para ra\xE7\xE3o animal e outras ind\xFAstrias. Seus benef\xEDcios
+    incluem o fornecimento de prote\xEDna de alta qualidade a um custo acess\xEDvel,
+    embora a sustentabilidade dependa de pr\xE1ticas de manejo respons\xE1veis para
+    minimizar impactos ambientais."
+  subproductsText: "Bacon\nPresunto\nLingui\xE7a\nTorresmo"

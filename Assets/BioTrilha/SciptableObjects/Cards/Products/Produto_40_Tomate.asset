@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_40_Tomate
+  m_EditorClassIdentifier: 
+  id: 40
+  displayName: Tomate
+  stars: 3
+  category: 4
+  frontSprite: {fileID: 21300000, guid: 6928a3c2223a9cf4780be0ef426672b0, type: 3}
+  backSprite: {fileID: 21300000, guid: 3d39599d0e52674459d9b46e7aa8fdff, type: 3}
+  descriptionText: "O tomate \xE9 um fruto amplamente cultivado em todo o Brasil,
+    especialmente em regi\xF5es como S\xE3o Paulo, Minas Gerais e Goi\xE1s, devido
+    ao clima favor\xE1vel. Obtido por cultivo agr\xEDcola em estufas ou campo aberto,
+    \xE9 utilizado na produ\xE7\xE3o de molhos, sucos e conservas. Na bioeconomia,
+    \xE9 importante por gerar renda e subprodutos com valor agregado, al\xE9m de
+    ser nutritivo, rico em antioxidantes e contribuir para dietas saud\xE1veis."
+  subproductsText: "Ketchup\nMolho de Tomate\nSucos e Bebidas\nP\xF3 de Tomate"

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_10_CarneBovina
+  m_EditorClassIdentifier: 
+  id: 10
+  displayName: Carne Bovina
+  stars: 2
+  category: 4
+  frontSprite: {fileID: 21300000, guid: fbb8ed120abb30344ba896804b1f8896, type: 3}
+  backSprite: {fileID: 21300000, guid: 5a0dfd79e84b21f40a0566ce04706e2e, type: 3}
+  descriptionText: "A carne bovina \xE9 proveniente da cria\xE7\xE3o de gado, sendo
+    obtida por meio da pecu\xE1ria, uma das principais atividades econ\xF4micas do
+    Brasil, especialmente em estados como Mato Grosso, Goi\xE1s e Minas Gerais. Ela
+    \xE9 relevante para a bioeconomia por impulsionar o agroneg\xF3cio, gerar empregos
+    e contribuir para o PIB. Seus benef\xEDcios incluem o fornecimento de prote\xEDna
+    animal, al\xE9m de subprodutos utilizados na ind\xFAstria aliment\xEDcia e farmac\xEAutica."
+  subproductsText: "Sebo (sab\xE3o e cosm\xE9ticos)\nCouro\nFertilizantes\nInsulina
+    bovina"

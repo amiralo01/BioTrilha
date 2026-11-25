@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_47_Lavanda
+  m_EditorClassIdentifier: 
+  id: 47
+  displayName: Lavanda
+  stars: 4
+  category: 6
+  frontSprite: {fileID: 21300000, guid: 474b5187ba758f447889b85c4cefdec1, type: 3}
+  backSprite: {fileID: 21300000, guid: 1e426f67e510db94ca81f070c924b94a, type: 3}
+  descriptionText: "A lavanda \xE9 uma planta arom\xE1tica, cultivada principalmente
+    por suas flores, que s\xE3o destiladas para a extra\xE7\xE3o de \xF3leo essencial.
+    No Brasil, ela \xE9 cultivada em regi\xF5es de clima mais ameno, como no interior
+    de S\xE3o Paulo e Minas Gerais. Sua import\xE2ncia na bioeconomia est\xE1 na
+    produ\xE7\xE3o de \xF3leos essenciais para cosm\xE9ticos, perfumes e terapias
+    alternativas, oferecendo benef\xEDcios como relaxamento, al\xEDvio de estresse
+    e propriedades antimicrobianas."
+  subproductsText: "Velas Arom\xE1ticas\nProdutos Cosm\xE9ticos\nHidrolato de Lavanda\nSabonetes
+    de Lavanda"

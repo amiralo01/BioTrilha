@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_14_Mandioca
+  m_EditorClassIdentifier: 
+  id: 14
+  displayName: Mandioca
+  stars: 4
+  category: 4
+  frontSprite: {fileID: 21300000, guid: 235767ba73137e14a8e8e68829283e5e, type: 3}
+  backSprite: {fileID: 21300000, guid: 6e27b533f345ae14db1194d331d409c2, type: 3}
+  descriptionText: "A mandioca \xE9 uma raiz tuberosa amplamente cultivada no Brasil,
+    especialmente nas regi\xF5es Norte e Nordeste. Ela \xE9 obtida por meio de plantio
+    em solos bem drenados e seu cultivo \xE9 importante tanto para pequenos agricultores
+    quanto para grandes produ\xE7\xF5es. Na bioeconomia, a mandioca \xE9 valorizada
+    por sua versatilidade na produ\xE7\xE3o de alimentos e bioprodutos, contribuindo
+    para a seguran\xE7a alimentar e gera\xE7\xE3o de renda. Seus benef\xEDcios incluem
+    baixo custo de produ\xE7\xE3o e ampla aplica\xE7\xE3o industrial e aliment\xEDcia.\n\nConto:
+    A lenda da mandioca\nA hist\xF3ria de uma jovem ind\xEDgena que deu \xE0 luz
+    uma menina misteriosa. A crian\xE7a adoeceu e morreu, sendo enterrada na oca.
+    No lugar do sepultamento, cresceu a planta da mandioca, que se tornou alimento
+    essencial para o povo ind\xEDgena."
+  subproductsText: 'Etanol
+
+    Goma
+
+    Amido
+
+    Farinha de mandioca'

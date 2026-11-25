@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_09_EtanolDaCanaDeAcucar
+  m_EditorClassIdentifier: 
+  id: 9
+  displayName: "Etanol da Cana de A\xE7\xFAcar"
+  stars: 4
+  category: 1
+  frontSprite: {fileID: 21300000, guid: e3fa04563686e9f47a0a1008bf2cb281, type: 3}
+  backSprite: {fileID: 21300000, guid: 02f6d0bc7b14ab34b87de7f1f317dbd7, type: 3}
+  descriptionText: "O etanol de cana-de-a\xE7\xFAcar \xE9 um produto da bioeconomia
+    devido \xE0 sua origem renov\xE1vel, derivada da cana-de-a\xE7\xFAcar. Esse biocombust\xEDvel
+    sustent\xE1vel contribui para a redu\xE7\xE3o das emiss\xF5es de gases de efeito
+    estufa, promovendo a transi\xE7\xE3o para fontes de energia mais limpas. Al\xE9m
+    disso, a produ\xE7\xE3o de etanol gera oportunidades econ\xF4micas, impulsionando
+    o setor agr\xEDcola e proporcionando alternativas energ\xE9ticas vi\xE1veis."
+  subproductsText: "Bebidas Alco\xF3licas\nBiocombust\xEDveis\nAlimentos\nFertilizante
+    Org\xE2nico\nCosm\xE9ticos"

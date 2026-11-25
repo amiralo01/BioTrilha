@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_41_OvosDeGalinha
+  m_EditorClassIdentifier: 
+  id: 41
+  displayName: Ovos de Galinha
+  stars: 4
+  category: 4
+  frontSprite: {fileID: 21300000, guid: 8bc412b545ab4d54989255f847edf913, type: 3}
+  backSprite: {fileID: 21300000, guid: 69961d3ed1afb4142b273e54f9ba9eae, type: 3}
+  descriptionText: "O ovo de galinha \xE9 um alimento rico em prote\xEDnas, produzido
+    a partir da cria\xE7\xE3o de galinhas poedeiras. Ele \xE9 obtido em granjas,
+    desde cria\xE7\xF5es familiares at\xE9 grandes sistemas intensivos. No Brasil,
+    \xE9 amplamente consumido em todo o territ\xF3rio, destaque para estados como
+    S\xE3o Paulo, Minas Gerais e Paran\xE1. Na bioeconomia, \xE9 valioso como fonte
+    acess\xEDvel de nutrientes, com baixo custo de produ\xE7\xE3o e potencial para
+    aproveitamento integral, incluindo sua casca como fertilizante natural."
+  subproductsText: "Prote\xEDnas de Ovo\nAlbumina em P\xF3\n\xD3leo de Gema de Ovo"

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_21_AlgodaoAmericano
+  m_EditorClassIdentifier: 
+  id: 21
+  displayName: "Algod\xE3o Americano"
+  stars: 3
+  category: 8
+  frontSprite: {fileID: 21300000, guid: 69485ab76f0e62643aac33ce97aee397, type: 3}
+  backSprite: {fileID: 21300000, guid: 562797cb7268a4f468b78e286f4d0f09, type: 3}
+  descriptionText: "O algod\xE3o americano \xE9 uma variedade amplamente cultivada
+    para produ\xE7\xE3o de fibras e \xF3leo, obtido por meio do plantio em regi\xF5es
+    com clima quente e manejo agr\xEDcola eficiente. No Brasil, \xE9 muito utilizado
+    no Cerrado, especialmente em estados como Mato Grosso e Bahia, grandes produtores.
+    Na bioeconomia, destaca-se por sua renovabilidade e aplica\xE7\xE3o em tecidos,
+    biopl\xE1sticos e produtos biodegrad\xE1veis, promovendo pr\xE1ticas agr\xEDcolas
+    sustent\xE1veis."
+  subproductsText: "Fibras T\xEAxteis\n\xD3leo de Algod\xE3o\nLinter"

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_06_EsponjaDeCelulose
+  m_EditorClassIdentifier: 
+  id: 6
+  displayName: Esponja de Celulose
+  stars: 3
+  category: 10
+  frontSprite: {fileID: 21300000, guid: 6d3854be69fa445468d176d20a9cb2c0, type: 3}
+  backSprite: {fileID: 21300000, guid: 3964efbb73aafe84aa972ec185d27774, type: 3}
+  descriptionText: "A esponja de celulose \xE9 biodegrad\xE1vel, feita de fibras
+    vegetais extra\xEDdas de celulose, com produ\xE7\xE3o nas regi\xF5es Sul e Sudeste
+    do Brasil. Importante para a bioeconomia, substitui esponjas sint\xE9ticas e
+    reduz o impacto ambiental, sendo uma alternativa sustent\xE1vel e renov\xE1vel."
+  subproductsText: "Esponjas cosm\xE9ticas\nEsponjas industriais\nEsponjas de banho"

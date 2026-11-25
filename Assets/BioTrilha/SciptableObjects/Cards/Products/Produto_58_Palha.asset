@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_58_Palha
+  m_EditorClassIdentifier: 
+  id: 58
+  displayName: Palha
+  stars: 5
+  category: 9
+  frontSprite: {fileID: 21300000, guid: b0593b6a8bc6c1c498d2620784e8c83d, type: 3}
+  backSprite: {fileID: 21300000, guid: 5db7a968b15c55548a9f77c36e008b49, type: 3}
+  descriptionText: "A palha \xE9 um subproduto agr\xEDcola obtido a partir de plantas
+    como arroz, trigo, milho e cana-de-a\xE7\xFAcar, sendo aproveitada ap\xF3s a
+    colheita. No Brasil, \xE9 amplamente utilizada no Nordeste e Centro-Oeste para
+    coberturas de casas, produ\xE7\xE3o de artesanato e como forragem animal. Na
+    bioeconomia, destaca-se por ser um material biodegrad\xE1vel e renov\xE1vel,
+    reduzindo o desperd\xEDcio e servindo como mat\xE9ria-prima para bioenergia,
+    isolamento t\xE9rmico e compostagem, al\xE9m de contribuir para a conserva\xE7\xE3o
+    do solo."
+  subproductsText: "Papel e Celulose\nIsolamento T\xE9rmico e Ac\xFAstico\nArtesanato
+    e Cestaria"

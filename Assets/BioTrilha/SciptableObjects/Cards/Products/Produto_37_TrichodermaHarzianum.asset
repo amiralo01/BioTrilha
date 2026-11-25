@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_37_TrichodermaHarzianum
+  m_EditorClassIdentifier: 
+  id: 37
+  displayName: Trichoderma Harzianum
+  stars: 5
+  category: 11
+  frontSprite: {fileID: 21300000, guid: a0f4e9e2a316b0145ba5f36c92e1da3f, type: 3}
+  backSprite: {fileID: 21300000, guid: 8285c642f744432478078637dc341fbd, type: 3}
+  descriptionText: "O Trichoderma harzianum \xE9 um fungo ben\xE9fico usado como
+    biocontrole contra doen\xE7as f\xFAngicas em plantas, sendo amplamente aplicado
+    na agricultura org\xE2nica e sustent\xE1vel. Ele \xE9 facilmente cultivado em
+    substratos agr\xEDcolas e \xE9 utilizado em diversas regi\xF5es do Brasil, principalmente
+    nas culturas de frutas, hortali\xE7as e plantas ornamentais. Sua import\xE2ncia
+    na bioeconomia reside no fato de reduzir o uso de pesticidas qu\xEDmicos, promovendo
+    a sa\xFAde do solo e a sustentabilidade agr\xEDcola."
+  subproductsText: "Biofertilizantes\nEnzimas\nCompostos Antif\xFAngicos"

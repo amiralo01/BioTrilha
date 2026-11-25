@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_01_Acai
+  m_EditorClassIdentifier: 
+  id: 1
+  displayName: "A\xE7a\xED"
+  stars: 4
+  category: 4
+  frontSprite: {fileID: 21300000, guid: 2c77f87cc59c7f042b604b2ab21c3168, type: 3}
+  backSprite: {fileID: 21300000, guid: 955ac04f2ff55ea47adbef6b99d57fdf, type: 3}
+  descriptionText: "O a\xE7a\xED \xE9 um fruto da palmeira Euterpe oleracea, nativa
+    da Amaz\xF4nia. \xC9 um alimento nutritivo, rico em vitaminas, minerais e antioxidantes.
+    O a\xE7a\xED \xE9 importante para a bioeconomia porque pode ser usado para produzir
+    uma variedade de produtos, como polpa, \xF3leo, farinha e bebidas. O a\xE7a\xED
+    pode ser encontrado na Amaz\xF4nia, mas tamb\xE9m \xE9 cultivado em outras regi\xF5es
+    do Brasil e do mundo.\n\nConto: A lenda do a\xE7a\xED\nA lenda diz que os frutos
+    do a\xE7a\xED s\xE3o l\xE1grimas de Ia\xE7\xE3, que chorou de alegria ao ver
+    sua tribo salva da fome, por isso o significado de a\xE7a\xED \xE9 a fruta que
+    chora. O a\xE7a\xED \xE9 um fruto sagrado para os povos ind\xEDgenas da Amaz\xF4nia
+    e \xE9 uma importante fonte de alimento e renda para essas comunidades."
+  subproductsText: "Sorvete\nPolpa\nFarinha\nCasca\nMedicamentos\nCosm\xE9ticos\n\xD3leo\nBebidas"

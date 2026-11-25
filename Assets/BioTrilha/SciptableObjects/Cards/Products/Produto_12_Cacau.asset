@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_12_Cacau
+  m_EditorClassIdentifier: 
+  id: 12
+  displayName: Cacau
+  stars: 5
+  category: 4
+  frontSprite: {fileID: 21300000, guid: a8539c745306f7c479fa19e36426f820, type: 3}
+  backSprite: {fileID: 21300000, guid: 209e0de3b07f37942839e94450b90006, type: 3}
+  descriptionText: "O cacau \xE9 uma fruta tropical usada principalmente para a produ\xE7\xE3o
+    de chocolate. Cultivado a partir de \xE1rvores em climas \xFAmidos, ele \xE9
+    amplamente produzido na regi\xE3o sul da Bahia e no Par\xE1. Na bioeconomia,
+    o cacau \xE9 importante por impulsionar economias locais de forma sustent\xE1vel,
+    preservando florestas e promovendo o agroflorestamento. Seus benef\xEDcios incluem
+    a gera\xE7\xE3o de renda para comunidades agr\xEDcolas e o est\xEDmulo a pr\xE1ticas
+    sustent\xE1veis de cultivo."
+  subproductsText: "Chocolate\nManteiga de cacau\nP\xF3 de cacau\nLicor de cacau"

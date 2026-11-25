@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_52_Melancia
+  m_EditorClassIdentifier: 
+  id: 52
+  displayName: Melancia
+  stars: 3
+  category: 4
+  frontSprite: {fileID: 21300000, guid: 1b5879e016bec1945a53e85067de5ee1, type: 3}
+  backSprite: {fileID: 21300000, guid: 619a892c12155f247883068ed9f7ec87, type: 3}
+  descriptionText: "A melancia \xE9 uma fruta refrescante cultivada em campos abertos
+    e sistemas irrigados, bastante comum nas regi\xF5es tropicais do Brasil, como
+    no Centro-Oeste, Norte e Nordeste. Na bioeconomia, seu cultivo sustent\xE1vel
+    impulsiona a economia rural e gera subprodutos com valor agregado. Seus benef\xEDcios
+    incluem alto teor de \xE1gua, vitaminas e antioxidantes, promovendo hidrata\xE7\xE3o
+    e sa\xFAde."
+  subproductsText: 'Polpa Desidratada
+
+    Suco de Melancia
+
+    Casca Compostada'

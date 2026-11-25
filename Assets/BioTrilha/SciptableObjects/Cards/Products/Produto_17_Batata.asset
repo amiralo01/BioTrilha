@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_17_Batata
+  m_EditorClassIdentifier: 
+  id: 17
+  displayName: Batata
+  stars: 3
+  category: 4
+  frontSprite: {fileID: 21300000, guid: af12130be496e7543823604552c438d6, type: 3}
+  backSprite: {fileID: 21300000, guid: 048328ca24eb02d4baa98a8eda221954, type: 3}
+  descriptionText: "\xC9 um tub\xE9rculo cultivado principalmente nas regi\xF5es
+    Sul e Sudeste do Brasil, com destaque para Minas Gerais e Paran\xE1. Obtida atrav\xE9s
+    de plantio de mudas ou sementes, \xE9 uma fonte importante de carboidratos e
+    base alimentar em diversos pratos. Na bioeconomia, \xE9 valorizada por seu uso
+    diversificado na alimenta\xE7\xE3o e ind\xFAstria, al\xE9m de ser mat\xE9ria-prima
+    para produtos como amido e biopl\xE1sticos."
+  subproductsText: "F\xE9cula de Batata\nBatata Palha\nPur\xEA Desidratado\nBiopl\xE1stico
+    de Amido"

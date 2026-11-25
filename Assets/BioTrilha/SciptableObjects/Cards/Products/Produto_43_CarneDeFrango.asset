@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_43_CarneDeFrango
+  m_EditorClassIdentifier: 
+  id: 43
+  displayName: Carne de Frango
+  stars: 2
+  category: 4
+  frontSprite: {fileID: 21300000, guid: 309c4bf1e01a1164cb7e0a1cfc49b2ff, type: 3}
+  backSprite: {fileID: 21300000, guid: 022a737181546f34dbf37c7bb7e0e0e9, type: 3}
+  descriptionText: "A carne de frango \xE9 uma das prote\xEDnas animais mais consumidas
+    no Brasil e no mundo, obtida pela cria\xE7\xE3o intensiva ou caipira de aves.
+    \xC9 amplamente produzida em estados como Paran\xE1, Santa Catarina e Rio Grande
+    do Sul, que s\xE3o grandes exportadores. Na bioeconomia, \xE9 relevante por seu
+    ciclo produtivo r\xE1pido, menor pegada de carbono em compara\xE7\xE3o a outras
+    carnes e aproveitamento integral de seus subprodutos."
+  subproductsText: "\xD3leo de Frango\nCaldo de Frango Concentrado\nCol\xE1geno de
+    Frango"

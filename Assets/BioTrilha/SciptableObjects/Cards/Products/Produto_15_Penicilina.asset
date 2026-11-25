@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_15_Penicilina
+  m_EditorClassIdentifier: 
+  id: 15
+  displayName: Penicilina
+  stars: 4
+  category: 5
+  frontSprite: {fileID: 21300000, guid: 9d86efdebbf0aab429904d483c30ea22, type: 3}
+  backSprite: {fileID: 21300000, guid: b1f1f099616787a4782d401bfe916251, type: 3}
+  descriptionText: "A penicilina \xE9 um antibi\xF3tico produzido a partir do fungo
+    Penicillium e \xE9 amplamente utilizada no tratamento de infec\xE7\xF5es bacterianas.
+    No Brasil, \xE9 obtida principalmente atrav\xE9s de processos de fermenta\xE7\xE3o
+    industrial, sendo essencial para a medicina moderna, pois ajuda a salvar vidas
+    e reduzir a morbidade associada a doen\xE7as infecciosas. Sua produ\xE7\xE3o
+    e uso s\xE3o fundamentais na bioeconomia, promovendo a sa\xFAde p\xFAblica e
+    diminuindo a necessidade de tratamentos mais complexos e caros."
+  subproductsText: "\xC1cido 6-aminopenicil\xE2nico\nCristais de penicilina\n\xC1cido
+    Peniciloico\nBiomassa de fungos"

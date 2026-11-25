@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_71_DetergenteLiquidoDeOleosVegetais
+  m_EditorClassIdentifier: 
+  id: 71
+  displayName: "Detergente L\xEDquido de \xD3leos Vegetais"
+  stars: 4
+  category: 10
+  frontSprite: {fileID: 21300000, guid: c939a1d2ce8aa1343a200ff4404042bd, type: 3}
+  backSprite: {fileID: 21300000, guid: e6a16444c1293cd4d80854fec444059a, type: 3}
+  descriptionText: "O detergente l\xEDquido de \xF3leos vegetais \xE9 feito a partir
+    de \xF3leos naturais, como coco e palma, combinados com agentes de limpeza biodegrad\xE1veis.
+    \xC9 amplamente utilizado no Brasil, principalmente em lares e estabelecimentos
+    sustent\xE1veis. Na bioeconomia, reduz o uso de petroqu\xEDmicos e minimiza impactos
+    ambientais, sendo uma alternativa ecol\xF3gica aos detergentes convencionais."
+  subproductsText: "Sab\xE3o em Barra Vegetal\nAmaciante Ecol\xF3gico\nSab\xE3o Multiuso
+    L\xEDquido"

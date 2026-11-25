@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_05_Bambu
+  m_EditorClassIdentifier: 
+  id: 5
+  displayName: Bambu
+  stars: 5
+  category: 9
+  frontSprite: {fileID: 21300000, guid: 1b88012710f27e44096d72bf8e0d1811, type: 3}
+  backSprite: {fileID: 21300000, guid: 2e4b879fbfda74f4888fe6e24a5d7582, type: 3}
+  descriptionText: "O bambu \xE9 uma planta de crescimento r\xE1pido, conhecida por
+    suas propriedades sustent\xE1veis e versatilidade. Ele \xE9 cultivado em v\xE1rias
+    regi\xF5es do Brasil, especialmente no Nordeste e Sudeste, sendo utilizado em
+    constru\xE7\xF5es, m\xF3veis e na produ\xE7\xE3o de papel e tecidos. Na bioeconomia,
+    o bambu se destaca por ser renov\xE1vel, exigir poucos recursos naturais para
+    crescer e contribuir para a captura de carbono. Seus benef\xEDcios incluem a
+    redu\xE7\xE3o do desmatamento e a promo\xE7\xE3o de alternativas ecol\xF3gicas."
+  subproductsText: "Biocombust\xEDvel\nM\xF3veis\nFibras para tecidos\nPapel e celulose"

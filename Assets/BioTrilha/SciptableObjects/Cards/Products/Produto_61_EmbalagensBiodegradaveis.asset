@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_61_EmbalagensBiodegradaveis
+  m_EditorClassIdentifier: 
+  id: 61
+  displayName: "Embalagens Biodegrad\xE1veis"
+  stars: 5
+  category: 7
+  frontSprite: {fileID: 21300000, guid: 4067037859615aa4e93b5957da8d42c4, type: 3}
+  backSprite: {fileID: 21300000, guid: 8f35b1e6de4c02d43826c3336beb7068, type: 3}
+  descriptionText: "As embalagens biodegrad\xE1veis s\xE3o feitas de materiais naturais,
+    como amido de milho, celulose e biopl\xE1sticos, que se decomp\xF5em rapidamente
+    no meio ambiente. Elas s\xE3o produzidas a partir de fontes renov\xE1veis e amplamente
+    utilizadas em supermercados, restaurantes e ind\xFAstrias de alimentos no Brasil.
+    Na bioeconomia, ajudam a reduzir a polui\xE7\xE3o pl\xE1stica, diminuir a pegada
+    de carbono e incentivar o uso de recursos sustent\xE1veis."
+  subproductsText: "Sacolas Biodegrad\xE1veis\nEmbalagens de Papel Recicl\xE1vel\nPotes
+    Biodegrad\xE1veis"

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_62_MadeiraDeEucalipto
+  m_EditorClassIdentifier: 
+  id: 62
+  displayName: Madeira de Eucalipto
+  stars: 4
+  category: 7
+  frontSprite: {fileID: 21300000, guid: d91716e319fad5340ad1fd8a98495281, type: 3}
+  backSprite: {fileID: 21300000, guid: 8c21feb188ebdd547b4b3a46830252b8, type: 3}
+  descriptionText: "A madeira de eucalipto vem do cultivo de \xE1rvores de crescimento
+    r\xE1pido, sendo amplamente utilizada no Brasil, especialmente no Sudeste e Sul,
+    em ind\xFAstrias de papel, m\xF3veis e constru\xE7\xE3o. Sua import\xE2ncia na
+    bioeconomia est\xE1 na alta produtividade e no menor impacto ambiental em compara\xE7\xE3o
+    a madeiras nativas. Seus benef\xEDcios incluem reflorestamento sustent\xE1vel,
+    captura de carbono e uso renov\xE1vel para diversos setores."
+  subproductsText: "\xD3leo de Eucalipto\nCelulose e Papel\nMadeira Serrada\nCarv\xE3o
+    Vegetal"

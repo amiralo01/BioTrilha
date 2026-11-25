@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_36_Maca
+  m_EditorClassIdentifier: 
+  id: 36
+  displayName: "Ma\xE7\xE3"
+  stars: 4
+  category: 4
+  frontSprite: {fileID: 21300000, guid: 009271b40094e6343817c460626a01c4, type: 3}
+  backSprite: {fileID: 21300000, guid: 1afd23957cadbd04c82c7b95ff0cdf98, type: 3}
+  descriptionText: "A ma\xE7\xE3 \xE9 uma fruta de clima temperado, cultivada principalmente
+    no sul do Brasil, com destaque para os estados de Santa Catarina e Rio Grande
+    do Sul. Obtida de pomares comerciais, requer manejo agr\xEDcola cuidadoso para
+    manter a qualidade. Na bioeconomia, a ma\xE7\xE3 \xE9 importante por gerar subprodutos
+    diversos e promover o agroneg\xF3cio sustent\xE1vel quando s\xE3o usadas pr\xE1ticas
+    de manejo respons\xE1veis, beneficiando a economia e a alimenta\xE7\xE3o saud\xE1vel."
+  subproductsText: "Polpa de Ma\xE7\xE3\nSidra\nSuco de Ma\xE7\xE3\nVinagre de ma\xE7\xE3"

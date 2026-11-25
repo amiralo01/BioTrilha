@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_11_EtanolDeBeterraba
+  m_EditorClassIdentifier: 
+  id: 11
+  displayName: Etanol de Beterraba
+  stars: 3
+  category: 1
+  frontSprite: {fileID: 21300000, guid: 647353e1a47838d4880e6ad99dfdd938, type: 3}
+  backSprite: {fileID: 21300000, guid: 328ce04708b6b324aa63cc6459ff330c, type: 3}
+  descriptionText: "O etanol de beterraba \xE9 um biocombust\xEDvel produzido a partir
+    da fermenta\xE7\xE3o do a\xE7\xFAcar presente na beterraba. Sua produ\xE7\xE3o
+    ocorre em regi\xF5es com clima favor\xE1vel ao cultivo da beterraba, como no
+    Sul do Brasil. Na bioeconomia, \xE9 importante por ser uma fonte renov\xE1vel
+    de energia, contribuindo para a redu\xE7\xE3o das emiss\xF5es de carbono e a
+    diversifica\xE7\xE3o da matriz energ\xE9tica. Seus benef\xEDcios incluem menor
+    impacto ambiental e a possibilidade de aproveitamento de subprodutos agr\xEDcolas."
+  subproductsText: "Mel residual\nMela\xE7o\nFertilizantes\nVinha\xE7a"

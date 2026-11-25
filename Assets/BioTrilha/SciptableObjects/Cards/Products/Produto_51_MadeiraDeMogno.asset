@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_51_MadeiraDeMogno
+  m_EditorClassIdentifier: 
+  id: 51
+  displayName: Madeira de Mogno
+  stars: 2
+  category: 7
+  frontSprite: {fileID: 21300000, guid: 071289abf7cc28e4894ca097d18a8eb3, type: 3}
+  backSprite: {fileID: 21300000, guid: dc75ec9f3389d7d4193dc8f5b70415cb, type: 3}
+  descriptionText: "A madeira de mogno vem da \xE1rvore Swietenia macrophylla, nativa
+    da Amaz\xF4nia. Por ser esp\xE9cie amea\xE7ada, sua extra\xE7\xE3o e comercializa\xE7\xE3o
+    s\xE3o proibidas no Brasil, e hoje s\xF3 pode ser obtida de plantios legalizados
+    e registrados. Na bioeconomia, seu manejo sustent\xE1vel evita o desmatamento
+    ilegal e promove a economia local, enquanto sua alta durabilidade e resist\xEAncia
+    reduzem a necessidade de substitui\xE7\xE3o, tornando-a um recurso valioso."
+  subproductsText: "\xD3leo Essencial de Mogno\nPain\xE9is e T\xE1buas\nEsculturas
+    e Entalhes\nCompensados"

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_73_CamuCamu
+  m_EditorClassIdentifier: 
+  id: 73
+  displayName: Camu-camu
+  stars: 5
+  category: 4
+  frontSprite: {fileID: 21300000, guid: f4cdbdeaecdc50f45af34c260f74a6eb, type: 3}
+  backSprite: {fileID: 21300000, guid: 03863331e4ebf94428a66f4bd4b983b8, type: 3}
+  descriptionText: "O Camu-camu \xE9 um fruto amaz\xF4nico rico em vitamina C, obtido
+    de arbustos nativos de \xE1reas alagadas. \xC9 cultivado principalmente no Amazonas,
+    Acre e Par\xE1, sendo bastante utilizado na ind\xFAstria aliment\xEDcia, cosm\xE9tica
+    e farmac\xEAutica. Sua import\xE2ncia na bioeconomia est\xE1 no alto valor nutricional
+    e comercial, gerando renda para comunidades ribeirinhas e promovendo a conserva\xE7\xE3o
+    da floresta. Al\xE9m de fortalecer a imunidade, seu cultivo sustent\xE1vel evita
+    o desmatamento e protege ecossistemas aqu\xE1ticos."
+  subproductsText: "\xD3leo de Camu-camu\nPolpa Congelada\nExtrato em P\xF3\nC\xE1psulas
+    de Camu-camu"

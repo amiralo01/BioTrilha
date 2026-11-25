@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_28_PapelABaseDeAlgas
+  m_EditorClassIdentifier: 
+  id: 28
+  displayName: "Papel \xE0 base de Algas"
+  stars: 4
+  category: 7
+  frontSprite: {fileID: 21300000, guid: 55f9cf879f5689d458b7b4e320d10d19, type: 3}
+  backSprite: {fileID: 21300000, guid: 890031c703aef034aa02c1a04f6c2fc8, type: 3}
+  descriptionText: "O papel \xE0 base de algas \xE9 produzido a partir de biomassa
+    de algas, especialmente de esp\xE9cies invasivas ou cultivadas de forma sustent\xE1vel.
+    No Brasil, seu uso \xE9 emergente, especialmente em projetos ecol\xF3gicos e
+    educacionais. \xC9 importante na bioeconomia por reduzir a depend\xEAncia de
+    celulose de \xE1rvores, combater algas invasivas e oferecer uma alternativa sustent\xE1vel
+    para a ind\xFAstria do papel."
+  subproductsText: "Embalagens Sustent\xE1veis\nFiltros Biodegrad\xE1veis\nMaterial
+    para impress\xE3o\nMateriais Escolares"

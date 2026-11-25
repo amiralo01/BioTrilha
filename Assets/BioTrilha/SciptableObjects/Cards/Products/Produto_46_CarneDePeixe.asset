@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_46_CarneDePeixe
+  m_EditorClassIdentifier: 
+  id: 46
+  displayName: Carne de Peixe
+  stars: 2
+  category: 4
+  frontSprite: {fileID: 21300000, guid: 5ae0b4881f78f3f47a20c268fad98d7c, type: 3}
+  backSprite: {fileID: 21300000, guid: 8316741d161f09f4fa7c8fdb4d4078b5, type: 3}
+  descriptionText: "A carne de peixe \xE9 uma importante fonte de prote\xEDna, com
+    menor impacto ambiental em compara\xE7\xE3o com outras carnes, como a de boi.
+    Sua produ\xE7\xE3o pode ser feita de maneira mais sustent\xE1vel, utilizando
+    sistemas como a aquicultura, que garante a produ\xE7\xE3o sem degradar os ecossistemas
+    naturais. Al\xE9m disso, a carne de peixe \xE9 rica em nutrientes, como \xF4mega-3,
+    essenciais para a sa\xFAde humana. A ind\xFAstria pesqueira e de aquicultura
+    geram emprego e renda, sendo de grande import\xE2ncia para a bioeconomia, especialmente
+    em regi\xF5es costeiras e interioranas do Brasil."
+  subproductsText: "Farinha de Peixe\n\xD3leo de Peixe\nCol\xE1geno de Peixe"

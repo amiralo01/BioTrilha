@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_67_PapelEletronico
+  m_EditorClassIdentifier: 
+  id: 67
+  displayName: "Papel Eletr\xF4nico"
+  stars: 4
+  category: 7
+  frontSprite: {fileID: 21300000, guid: 3378f8e8a51cbe74391a156b65154106, type: 3}
+  backSprite: {fileID: 21300000, guid: abe5f16de60625b42a218367eead0709, type: 3}
+  descriptionText: "O papel eletr\xF4nico (e-paper) \xE9 um material reutiliz\xE1vel
+    que simula a apar\xEAncia do papel tradicional, mas usa tecnologia de tinta eletr\xF4nica
+    para exibir informa\xE7\xF5es. Ele \xE9 produzido a partir de pol\xEDmeros e
+    componentes eletr\xF4nicos de baixo consumo energ\xE9tico. No Brasil, \xE9 utilizado
+    principalmente em etiquetas digitais no varejo, pain\xE9is informativos e dispositivos
+    de leitura. Na bioeconomia, reduz o desperd\xEDcio de papel e eletr\xF4nicos,
+    economizando recursos e energia. Seus benef\xEDcios incluem durabilidade, baixo
+    impacto ambiental e efici\xEAncia energ\xE9tica."
+  subproductsText: "E-readers\nCart\xF5es de Visita Digitais\nEtiquetas Digitais
+    de Pre\xE7o\nPain\xE9is Informativos"

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_04_Alecrim
+  m_EditorClassIdentifier: 
+  id: 4
+  displayName: Alecrim
+  stars: 3
+  category: 6
+  frontSprite: {fileID: 21300000, guid: 859aa559f653d3c41a9a864ec0c20f46, type: 3}
+  backSprite: {fileID: 21300000, guid: d881bcb135981454ba8d0d5edda57ef7, type: 3}
+  descriptionText: "O alecrim \xE9 uma planta arom\xE1tica utilizada tanto na culin\xE1ria
+    quanto na produ\xE7\xE3o de \xF3leos essenciais e cosm\xE9ticos. Ele \xE9 cultivado
+    em v\xE1rias regi\xF5es do Brasil, especialmente no Sudeste e Nordeste, devido
+    ao clima favor\xE1vel. Na bioeconomia, \xE9 valorizado por ser um produto natural
+    com m\xFAltiplos usos, desde alimentos a medicamentos. Seus benef\xEDcios incluem
+    propriedades medicinais, antioxidantes, e o baixo impacto ambiental no cultivo."
+  subproductsText: "Cremes Cosm\xE9ticos\nSabonetes Artesanais\nProdutos Farmac\xEAuticos"

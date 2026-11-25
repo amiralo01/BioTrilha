@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_45_OvosDePata
+  m_EditorClassIdentifier: 
+  id: 45
+  displayName: Ovos de Pata
+  stars: 2
+  category: 4
+  frontSprite: {fileID: 21300000, guid: 56cd7759b06d67540aebfd8d1c42309e, type: 3}
+  backSprite: {fileID: 21300000, guid: 9454eee6b94092b4a8585867f2e7c2c6, type: 3}
+  descriptionText: "O ovo de pata \xE9 um produto de origem av\xEDcola, obtido a
+    partir da cria\xE7\xE3o de patos, especialmente em pequenas propriedades e sistemas
+    agroecol\xF3gicos. No Brasil, \xE9 mais comum em regi\xF5es rurais do Sul e Sudeste,
+    sendo utilizado na culin\xE1ria e na produ\xE7\xE3o artesanal. Sua import\xE2ncia
+    na bioeconomia est\xE1 na diversifica\xE7\xE3o da produ\xE7\xE3o animal, oferecendo
+    alto valor nutricional e podendo ser aproveitado em produtos derivados, reduzindo
+    desperd\xEDcios."
+  subproductsText: "Maionese Artesanal\nClara de Ovo em P\xF3\nCosm\xE9ticos Naturais"

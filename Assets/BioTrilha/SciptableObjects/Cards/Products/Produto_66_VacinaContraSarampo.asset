@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_66_VacinaContraSarampo
+  m_EditorClassIdentifier: 
+  id: 66
+  displayName: Vacina contra Sarampo
+  stars: 2
+  category: 5
+  frontSprite: {fileID: 21300000, guid: 952605bdb5137a248baa05c1b6774e89, type: 3}
+  backSprite: {fileID: 21300000, guid: c85149477686aba49a463f841e02568f, type: 3}
+  descriptionText: "A vacina contra o sarampo \xE9 um imunizante produzido a partir
+    do v\xEDrus atenuado, garantindo prote\xE7\xE3o contra a doen\xE7a. No Brasil,
+    \xE9 amplamente utilizada no Sistema \xDAnico de Sa\xFAde (SUS), especialmente
+    em campanhas de vacina\xE7\xE3o infantil e em surtos. Sua import\xE2ncia na bioeconomia
+    est\xE1 na redu\xE7\xE3o de custos com tratamentos hospitalares e na preven\xE7\xE3o
+    de epidemias, al\xE9m de promover a sa\xFAde p\xFAblica e reduzir a mortalidade
+    infantil."
+  subproductsText: "Vacina Tr\xEDplice Viral\nSoros Imunol\xF3gicos\nAnticorpos Monoclonais"

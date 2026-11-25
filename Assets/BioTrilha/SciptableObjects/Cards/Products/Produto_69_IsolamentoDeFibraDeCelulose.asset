@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_69_IsolamentoDeFibraDeCelulose
+  m_EditorClassIdentifier: 
+  id: 69
+  displayName: Isolamento de Fibra de Celulose
+  stars: 4
+  category: 9
+  frontSprite: {fileID: 21300000, guid: 0f4c5900d8845a541ae2910ad58cfe81, type: 3}
+  backSprite: {fileID: 21300000, guid: 6b77d34b33b989e47a030613e6d33171, type: 3}
+  descriptionText: "O isolamento de fibra de celulose \xE9 produzido a partir de
+    papel e jornal reciclados, desfibrados e tratados com sais minerais que os tornam
+    resistentes ao fogo, a fungos e a insetos. \xC9 aplicado em paredes, forros e
+    telhados, e no Brasil come\xE7a a ser adotado em constru\xE7\xF5es sustent\xE1veis
+    e obras com certifica\xE7\xE3o ambiental. Na bioeconomia, destaca-se por dar
+    destino a um res\xEDduo abundante e por exigir pouca energia na fabrica\xE7\xE3o,
+    bem menos que a l\xE3 de vidro. Seus benef\xEDcios incluem a redu\xE7\xE3o do
+    gasto de energia com climatiza\xE7\xE3o, o conforto ac\xFAstico e a diminui\xE7\xE3o
+    do lixo de papel."
+  subproductsText: "Pain\xE9is Ac\xFAsticos\nEnchimento para Forros\nFlocos para
+    Insuflamento"

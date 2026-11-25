@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a3df27be383cd47b4424855766f7f3, type: 3}
+  m_Name: Produto_75_Buriti
+  m_EditorClassIdentifier: 
+  id: 75
+  displayName: Buriti
+  stars: 5
+  category: 4
+  frontSprite: {fileID: 21300000, guid: 46d6daadf1b0c7d4db660d136d4dc711, type: 3}
+  backSprite: {fileID: 21300000, guid: 15a1a3050a602204286339abf3297f9d, type: 3}
+  descriptionText: "O buriti \xE9 uma palmeira nativa da regi\xE3o Centro-Oeste e
+    Norte do Brasil, especialmente em \xE1reas de cerrado e florestas. Seu fruto
+    \xE9 bastante utilizado para a produ\xE7\xE3o de \xF3leos, sucos e polpas, enquanto
+    suas fibras podem ser usadas para artesanato. Na bioeconomia, o buriti \xE9 importante
+    por ser uma planta de baixo impacto ambiental e altamente aproveit\xE1vel, promovendo
+    a sustentabilidade das comunidades locais. Seus benef\xEDcios incluem propriedades
+    antioxidantes, anti-inflamat\xF3rias e nutricionais, al\xE9m de ser uma fonte
+    de renda para agricultores e artes\xE3os."
+  subproductsText: "Polpa de Buriti\n\xD3leo de Buriti\nSemente de Buriti\nFibra
+    de Buriti"
