@@ -74,12 +74,15 @@ The game features a rich set of physical and digital components:
 - [x] Luck or Setback card artwork (26 cards and a shared back, transparent PNG)
 - [x] Question card artwork (47 cards and a shared back, transparent PNG)
 - [x] Product card artwork (75 cards, front and back, transparent PNG; each product has a category ID from 1 to 11)
-- [ ] Banknote artwork
+- [x] Banknote artwork (5.000, 10.000, 50.000 and 100.000, transparent PNG)
 - [x] Unity project initialized with Android mobile configuration
 - [x] Project folder structure organized
 - [x] Scene folders organized: Main Menu, Standard Game, Tutorial (scenes still to be built)
 - [x] Board prototype scene (`SampleScene`): board, dice and pawns
 - [ ] Game logic implementation (C# scripts)
+- [x] Board path (71 houses + START and FINISH, read from the board art), dice roll and pawn movement house by house
+- [x] Turn loop prototype: who starts (highest roll, ties roll again), turn order, stop at FINISH, second roll for the card level on green/blue houses
+- [ ] Card delivery by house color (next step)
 - [x] Action, Luck/Setback, Question and Product card data (ScriptableObjects) and card UI prefabs
 - [ ] Card system and deck mechanics
 - [ ] In-game currency system
@@ -113,7 +116,7 @@ Assets/
 │   ├── Animations/            # Character and pawn animations
 │   ├── Art/
 │   │   ├── 2D/                # Board, cards, banknotes, logo, UI sprites
-│   │   │   ├── Banknotes/
+│   │   │   ├── Banknotes/     # 4 banknotes (Nota_5000 ... Nota_100000)
 │   │   │   ├── BoardGame/     # Game board artwork
 │   │   │   ├── Cards/
 │   │   │   │   ├── Actions/   # 36 action cards (Front/ and Back/)
@@ -256,12 +259,15 @@ O jogo conta com um conjunto rico de componentes físicos e digitais:
 - [x] Arte das cartas de Sorte ou Revés (26 cartas e um verso comum, PNG transparente)
 - [x] Arte das cartas de Questões (47 cartas e um verso comum, PNG transparente)
 - [x] Arte das cartas de Produto (75 cartas, frente e verso, PNG transparente; cada produto tem um ID de categoria de 1 a 11)
-- [ ] Arte das cédulas
+- [x] Arte das cédulas (5.000, 10.000, 50.000 e 100.000, PNG transparente)
 - [x] Projeto Unity inicializado com configuração mobile Android
 - [x] Estrutura de pastas do projeto organizada
 - [x] Pastas das cenas organizadas: Menu Principal, Jogo Padrão, Tutorial (cenas ainda a construir)
 - [x] Cena de protótipo do tabuleiro (`SampleScene`): tabuleiro, dado e peões
 - [ ] Implementação da lógica do jogo (scripts C#)
+- [x] Trilha do tabuleiro (71 casas + INÍCIO e FIM, lidas da arte do tabuleiro), lançamento do dado e movimento do peão casa a casa
+- [x] Protótipo do turno: quem começa (maior número, empate lança de novo), ordem dos turnos, parada no FIM, novo lançamento do nível da carta nas casas verde e azul
+- [ ] Entrega das cartas conforme a cor da casa (próxima etapa)
 - [x] Dados das cartas de Ação, de Sorte ou Revés, de Questões e de Produto (ScriptableObjects) e prefabs de UI das cartas
 - [ ] Sistema de cartas e mecânica de baralho
 - [ ] Sistema de moeda do jogo
@@ -295,7 +301,7 @@ Assets/
 │   ├── Animations/            # Animações de personagens e peões
 │   ├── Art/
 │   │   ├── 2D/                # Tabuleiro, cartas, cédulas, logo, sprites de UI
-│   │   │   ├── Banknotes/
+│   │   │   ├── Banknotes/     # 4 cédulas (Nota_5000 ... Nota_100000)
 │   │   │   ├── BoardGame/     # Arte do tabuleiro
 │   │   │   ├── Cards/
 │   │   │   │   ├── Actions/   # 36 cartas de Ação (Front/ e Back/)
